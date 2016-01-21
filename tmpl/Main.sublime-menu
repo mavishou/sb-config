@@ -1,3 +1,4 @@
+// Just to reorder the menu, put python and shell as the first two
 [
     {
         "id": "file",
@@ -7,6 +8,20 @@
                 "caption": "New File (SublimeTmpl)",
                 "children":
                 [
+                    {
+                        "caption": "python",
+                        "command": "sublime_tmpl",
+                        "args": {
+                            "type": "python"
+                        }
+                    },
+                    {
+                        "caption": "ShellScript",
+                        "command": "sublime_tmpl",
+                        "args": {
+                            "type": "shell"
+                        }
+                    },
                     {
                         "caption": "HTML",
                         "command": "sublime_tmpl",
@@ -33,13 +48,6 @@
                         "command": "sublime_tmpl",
                         "args": {
                             "type": "php"
-                        }
-                    },
-                    {
-                        "caption": "python",
-                        "command": "sublime_tmpl",
-                        "args": {
-                            "type": "python"
                         }
                     },
                     {

@@ -1,0 +1,11 @@
+// This file is located at Packages/User
+// It can also be available by Preference
+{
+     "attr": {
+      "author": "Mei Hou",
+      "email": "houm@mail.cbi.pku.edu.cn"
+  },
+  "shell": {
+    "syntax": "Packages/ShellScript/Shell-Unix-Generic.tmLanguage"
+  }
+}
