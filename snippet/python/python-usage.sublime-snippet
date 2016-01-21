@@ -1,0 +1,15 @@
+<!-- put this file in the Packages/User folder, see http://docs.sublimetext.info/en/latest/extensibility/snippets.html for help -->
+<snippet>
+
+    <tabTrigger>usage</tabTrigger>
+    <scope>source.python</scope>
+    <description>Generate usage</description>
+    <content><![CDATA[import sys
+
+
+def usage():
+    print '''Usage: %s ${2}
+
+    ${0}
+    ''' % sys.argv[0]]]></content>
+</snippet>

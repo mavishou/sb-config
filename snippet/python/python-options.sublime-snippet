@@ -1,0 +1,24 @@
+<!-- put this file in the Packages/User folder, see http://docs.sublimetext.info/en/latest/extensibility/snippets.html for help -->
+<snippet>
+
+    <tabTrigger>options</tabTrigger>
+    <scope>source.python</scope>
+    <description>Generate options</description>
+    <content><![CDATA[import sys
+import getopt
+
+
+def usage():
+    print '''Usage: %s -${1:i} ${2:input_file}
+
+    -${1:i}:\t${3:description}
+    -h:\t${4:description}
+    ''' % sys.argv[0]
+
+opts, args = getopt.getopt(sys.argv[1:], '${1:i}:h')
+for op, value in opts:
+    if op == '-${1:i}':
+        ${2:input_file} = value
+    elif op == '-h':
+        usage()]]></content>
+</snippet>

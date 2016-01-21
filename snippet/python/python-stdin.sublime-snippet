@@ -1,0 +1,9 @@
+<!-- put this file in the Packages/User folder, see http://docs.sublimetext.info/en/latest/extensibility/snippets.html for help -->
+<snippet>
+
+    <tabTrigger>stdin</tabTrigger>
+    <scope>source.python</scope>
+    <description>Read from stdin</description>
+    <content><![CDATA[for ${1:line} in sys.stdin:
+    ${0:pass}]]></content>
+</snippet>

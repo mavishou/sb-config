@@ -1,0 +1,10 @@
+<!-- put this file in the Packages/User folder, see http://docs.sublimetext.info/en/latest/extensibility/snippets.html for help -->
+<snippet>
+    <tabTrigger>openrw</tabTrigger>
+    <scope>source.python</scope>
+    <description>Open a file to read and write</description>
+    <content><![CDATA[with open('$1') as ${2:reader}, open('$3', 'w') as ${4:writer}:
+    for line in ${2:reader}:
+        $0
+        ${4:writer}.write()]]></content>
+</snippet>

@@ -1,0 +1,8 @@
+<!-- put this file in the Packages/User folder, see http://docs.sublimetext.info/en/latest/extensibility/snippets.html for help -->
+<snippet>
+    <tabTrigger>openw</tabTrigger>
+    <scope>source.python</scope>
+    <description>Open a file to write</description>
+    <content><![CDATA[with open('$1', 'w') as ${2:writer}:
+    ${0:pass}]]></content>
+</snippet>
