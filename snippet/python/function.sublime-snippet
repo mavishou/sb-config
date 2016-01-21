@@ -1,0 +1,11 @@
+<!-- This is the default snippet.
+It's in the Python package.
+To see this file, you should use the packageResourceViewer to view the Python package.-->
+<snippet>
+    <tabTrigger>def</tabTrigger>
+    <scope>source.python</scope>
+    <description>Function</description>
+
+    <content><![CDATA[def ${1:function}($2):
+    ${0:pass}]]></content>
+</snippet>
